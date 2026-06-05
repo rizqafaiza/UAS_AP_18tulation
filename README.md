@@ -1,7 +1,9 @@
 # UAS_AP_18tulation
-anggota kelompok:
-Naila Azzahra 251401026
-Arfah Madany 251401053
-Ezer Nicholas Purba 251401062
-Rizqa Faiza Raihanah 251401074
-Azriel Zaidan Alva 251401137
+anggota:<br>
+<ul>
+<li>Naila Azzahra 251401026</li>
+<li>Arfah Madany 251401053</li>
+<li>Ezer Nicholas Purba 251401062</li>
+<li>Rizqa Faiza Raihanah 251401074</li>
+<li>Azriel Zaidan Arva 251401137</li>
+</ul>
