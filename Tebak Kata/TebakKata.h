@@ -12,7 +12,6 @@ struct KataGame{
 };
 
 struct StatusPlayer{
-    std::vector<std::string> nama;
     std::vector<int>skor;
 };
 
@@ -85,11 +84,8 @@ class Game{
 
     void play(){
         char huruf;
-        std::string nama;
         int skor=0;
-
-        std::cout<<"masukkan nama: ";std::cin>>nama;
-        player->nama.push_back(nama);
+        
         tingkat_kesulitan(&skor);
 
         srand(time(0));
@@ -134,7 +130,7 @@ class Game{
 
         std::cout<<"\nLeaderboard:\n";
         for(int i=0;i<player->skor.size();i++){
-            std::cout<< i+1<< ". " << player->nama[i] << "\t\t" << player->skor[i] <<std::endl;
+            std::cout<< i+1<< ". " << "\t" << player->skor[i] <<std::endl;
         }
     }
 };
