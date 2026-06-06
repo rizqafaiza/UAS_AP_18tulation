@@ -20,7 +20,6 @@ void tambahBarang() {
 
     cout << "Kode Barang : "; cin >> b.kodeBarang;
 
-    // cek kode duplikat
     for (int i = 0; i < inventaris.size(); i++) {
         if (inventaris[i].kodeBarang == b.kodeBarang) {
             cout << "Kode sudah ada!\n";
